@@ -10,7 +10,7 @@ O aplicativo “fulô de mandacaru” é um novo desenvolvimento na área de cui
 Clique [aqui](https://www.figma.com/file/enaD19vZ0IpsDGs33XBBds/Calendario?node-id=319%3A2) para ver o protótipo diretamente no Figma.
 
 ### 🌺🌵 Canva
-Clique [aqui](https://www.canva.com/design/DAErtqGSN64/JCnPvtctd_EwxQG9BD22fQ/view?utm_content=DAErtqGSN64&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) a apresentação do Canva.
+Clique [aqui](https://github.com/chechely/fulo-de-mandacaru/blob/main/Ful%C3%B4%20de%20mandacaru%20.pdf) a apresentação do Canva.
 
 ### 🌺🌵 Grupo 
 
