@@ -5,14 +5,21 @@ O aplicativo “fulô de mandacaru” é um novo desenvolvimento na área de cui
 
 ![Logo](https://github.com/JaianeOliveira/fulo-de-mandacaru/blob/main/assets/ss.png)
 
-### 🌺🌵 Protótipo
+### 📱 Protótipo
 ![Figma](https://github.com/JaianeOliveira/fulo-de-mandacaru/blob/main/assets/download.png)
 Clique [aqui](https://www.figma.com/file/enaD19vZ0IpsDGs33XBBds/Calendario?node-id=319%3A2) para ver o protótipo diretamente no Figma.
+### 🎨 Paleta de cores do app
+![paleta](https://github.com/chechely/fulo-de-mandacaru/blob/main/assets/paleta.png)
+- #FFFFFF 
+- #5A4BB7 
+- #FF598C 
+- #3EC3A4 
 
-### 🌺🌵 Canva
+
+### 🖼 Canva
 Clique [aqui](https://github.com/chechely/fulo-de-mandacaru/blob/main/Ful%C3%B4%20de%20mandacaru%20.pdf) a apresentação do Canva.
 
-### 🌺🌵 Grupo 
+### 🔮 Grupo 
 
 - Jaiane Oliveira
 - Joyce Vitória
