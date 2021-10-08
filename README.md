@@ -23,6 +23,6 @@ Clique [aqui](https://github.com/chechely/fulo-de-mandacaru/blob/main/Ful%C3%B4%
 
 - Jaiane Oliveira
 - Joyce Vitória
-- Joelma Oliveira
+- Joelma Inácio
 - Michelle Santos
 - Rayane Layza
