@@ -89,7 +89,7 @@ const MitoVerdade = ({navigation}) =>{
           onPress={() => navigation.navigate('Verdade1')}
           style={styles.button}>
             <Entypo name="thumbs-up" size={24} color="black" />
-            <Text style={styles.btnText}>Verdade1</Text>
+            <Text style={styles.btnText}>Verdade</Text>
           </TouchableOpacity>
 
           <View style={{flexDirection: 'row', alignContent: 'space-between'}}>
@@ -98,13 +98,13 @@ const MitoVerdade = ({navigation}) =>{
           onPress={() => navigation.navigate('Mito2')}
           style={styles.button}>
             <Entypo name="thumbs-down" size={24} color="black" />
-            <Text style={styles.btnText}>Mito2</Text>
+            <Text style={styles.btnText}>Mito</Text>
           </TouchableOpacity>
           <TouchableOpacity 
           onPress={() => navigation.navigate('Mito3')}
           style={styles.button}>
             <Entypo name="thumbs-up" size={24} color="black" />
-            <Text style={styles.btnText}>Mito3</Text>
+            <Text style={styles.btnText}>Mito</Text>
           </TouchableOpacity>
         </View>
         </View>
@@ -113,14 +113,14 @@ const MitoVerdade = ({navigation}) =>{
           onPress={() => navigation.navigate('Mito1')}
           style={styles.button}>
             <Entypo name="thumbs-down" size={24} color="black" />
-            <Text style={styles.btnText}>Mito4</Text>
+            <Text style={styles.btnText}>Mito</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
           onPress={() => navigation.navigate('Verdade2')} 
           style={styles.button}>
             <Entypo name="thumbs-up" size={24} color="black" />
-            <Text style={styles.btnText}>Verdade2</Text>
+            <Text style={styles.btnText}>Verdade</Text>
           </TouchableOpacity>
         </View>
           <View style={{flexDirection: 'row', alignContent: 'space-between'}}>
@@ -128,13 +128,13 @@ const MitoVerdade = ({navigation}) =>{
           onPress={() => navigation.navigate('Mito4')}
           style={styles.button}>
             <Entypo name="thumbs-down" size={24} color="black" />
-            <Text style={styles.btnText}>Mito44</Text>
+            <Text style={styles.btnText}>Mito</Text>
           </TouchableOpacity>
           <TouchableOpacity 
           onPress={() => navigation.navigate('Verdade3')}
           style={styles.button}>
             <Entypo name="thumbs-up" size={24} color="black" />
-            <Text style={styles.btnText}>Verdade3</Text>
+            <Text style={styles.btnText}>Verdade</Text>
           </TouchableOpacity>
         </View> 
         <View style={{flexDirection: 'row', alignContent: 'space-between'}}>
@@ -142,13 +142,13 @@ const MitoVerdade = ({navigation}) =>{
           onPress={() => navigation.navigate('Mito5')} 
           style={styles.button}>
             <Entypo name="thumbs-down" size={24} color="black" />
-            <Text style={styles.btnText}>Mito4</Text>
+            <Text style={styles.btnText}>Mito</Text>
           </TouchableOpacity>
           <TouchableOpacity 
           onPress={() => navigation.navigate('Verdade4')}
           style={styles.button}>
             <Entypo name="thumbs-up" size={24} color="black" />
-            <Text style={styles.btnText}>Verdade4</Text>
+            <Text style={styles.btnText}>Verdade</Text>
           </TouchableOpacity>
         </View> 
         </View>

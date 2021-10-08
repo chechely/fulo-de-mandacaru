@@ -12,65 +12,64 @@ const Sintomas = ({navigation}) =>{
 
   // Filtra o array a partir do que colocar no TextInput
 
-    let filtro = tratamento.filter(tratamento => tratamento.Tratamento === text);
+  let filtro = tratamento.filter(tratamento => tratamento.Tratamento === text);
      
   
-// Mostra na tela o titulo da Verdade (a mesma coisa que foi digitada)
+  // Mostra na tela o titulo da Verdade (a mesma coisa que foi digitada)
+    
+    const trat =  Object.entries(filtro).map(([key, value]) => {
+       return <Text style={styles.titleText} key={key}>{value.Tratamento}</Text>
+     });
+    
+  // Mostra na tela a descrição da Verdade
   
-  const trat =  Object.entries(filtro).map(([key, value]) => {
-     return <Text style={styles.titleText} key={key}>{value.Tratamento}</Text>
-   });
+     const trat_d =  Object.entries(filtro).map(([key, value]) => {
+       return <Text style={styles.descriptionText} key={key}>{value.Descrição}</Text>
+     });
   
-// Mostra na tela a descrição da Verdade
-
-   const trat_d =  Object.entries(filtro).map(([key, value]) => {
-     return <Text style={styles.descriptionText} key={key}>{value.Descrição}</Text>
-   });
-
-    // No console, além do erro ao tentar mostrar, tambem aparece um erro que 
-    //basicamente é que o input esta em tempo real, meio que ele fica imprimindo vazio até achar
-    // Na tela esse erro não mostra, só apresenta no console
+      // No console, além do erro ao tentar mostrar, tambem aparece um erro que 
+      //basicamente é que o input esta em tempo real, meio que ele fica imprimindo vazio até achar
+      // Na tela esse erro não mostra, só apresenta no console
+    
+    // Erro : Warning: A component is changing an uncontrolled input of 
   
-  // Erro : Warning: A component is changing an uncontrolled input of 
-
-// FILTRA DOENCAS ------------------------------------
-
-    // Filtra o array a partir do que colocar no TextInput
-    let filtro_d = doenca.filter(doenca => doenca.EMOCIONAIS === text &&  doenca.FÍSICOS === text );
+  // FILTRA DOENCAS ------------------------------------
   
-// Mostra na tela o titulo do mito (a mesma coisa que foi digitada)
+      // Filtra o array a partir do que colocar no TextInput
+      let filtro_d = doenca.filter(doenca => doenca.Doenças === text );
+    
+  // Mostra na tela o titulo do mito (a mesma coisa que foi digitada)
+    
+    const doe =  Object.entries(filtro_d).map(([key, value]) => {
+       return <Text style={styles.descriptionText} key={key}>{value.Doenças}</Text>
+     });
+    
+  // Mostra na tela a descrição do mito 
   
-  //const doe =  Object.entries(filtro_d).map(([key, value]) => {
-   //  return <Text style={styles.buttonText} key={key}>{value}</Text>
-   //});
+     const doe_d =  Object.entries(filtro_d).map(([key, value]) => {
+       return <Text style={styles.descriptionText} key={key}>{value.Descrição}</Text>
+     });
   
-// Mostra na tela a descrição do mito 
-
-   //const doe_d =  Object.entries(filtro_d).map(([key, value]) => {
-   //  return <Text style={styles.buttonText} key={key}>{value.Descrição}</Text>
-  // });
-
-// FILTRA SINTOMAS
-
-    // Filtra o array a partir do que colocar no TextInput
-    let filtro_s = sintomas.filter(sintomas => sintomas.EMOCIONAIS === text);
-    let filtro_ss = sintomas.filter(sintomas => sintomas.FÍSICOS === text );
+  // FILTRA SINTOMAS
   
-// Mostra na tela o titulo do mito (a mesma coisa que foi digitada)
+      // Filtra o array a partir do que colocar no TextInput
+      let filtro_s = sintomas.filter(sintomas => sintomas.EMOCIONAIS === text);
+      let filtro_ss = sintomas.filter(sintomas => sintomas.FÍSICOS === text );
+    
+  // Mostra na tela o titulo do mito (a mesma coisa que foi digitada)
+    
+    const sint =  Object.entries(filtro_s).map(([key, value]) => {
+       return <Text style={styles.descriptionText} key={key}>{value.EMOCIONAIS}</Text>
+     });
   
-  const sint =  Object.entries(filtro_s).map(([key, value]) => {
-     return <Text style={styles.titleText} key={key}>{value.EMOCIONAIS}</Text>
-   });
-
-   const sint_d =  Object.entries(filtro_ss).map(([key, value]) => {
-    return <Text style={styles.titleText} key={key}>{value.FÍSICOS}</Text>
-  });
+     const sint_d =  Object.entries(filtro_ss).map(([key, value]) => {
+      return <Text style={styles.descriptionText} key={key}>{value.FÍSICOS}</Text>
+    });
+    
   
-
-// Assim que o texto for digitado, se ele for exatemente igual a qualquer titulo
-// que esteja em mitos.json ou verdade.json aparecerá no mesmo momento
-// para exibir na tela é só colocar {mito_d} (mostra a descriçaõ do mito somente)
-
+  // Assim que o texto for digitado, se ele for exatemente igual a qualquer titulo
+  // que esteja em mitos.json ou verdade.json aparecerá no mesmo momento
+  // para exibir na tela é só colocar {mito_d} (mostra a descriçaõ do mito somente)
   return(
     <SafeAreaView style={{flex: 1, backgroundColor: '#5A4BB7', paddingTop: 30}}>
      
@@ -91,9 +90,13 @@ const Sintomas = ({navigation}) =>{
           {trat}
           {sint}
           {sint_d}
+          {doe_d}
+          {doe}
         </View> 
         <View style={{marginVertical: 10}}>
           {trat_d}
+          {doe_d}
+          {doe}
         </View> 
         </ScrollView>
        </View>

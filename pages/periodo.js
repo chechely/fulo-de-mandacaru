@@ -1,16 +1,26 @@
 import React from 'react';
 import { render } from 'react-dom';
-import { View, Text, StyleSheet, useColorScheme, Image } from 'react-native';
+import { View, Text, StyleSheet, useColorScheme, Image,ScrollView } from 'react-native';
 import logo from '../assets/ss.png';
+
+const doenca = require('../Services/doencas.json');
+
 const Periodo = ({navigation}) => {
+  const doe =  Object.entries(doenca).map(([key, value]) => {
+    return <Text style={styles.textContent} key={key}>{value.Descrição}</Text> 
+  });
   return(
+    <ScrollView>
   <View style={styles.container}>
     <Text style={styles.pageTitle}>Período</Text>
     <View style={styles.contentContainer}>
-      <Image source={logo}/>
-      <Text style={styles.textContent}>Em breve...aguarde!</Text>
+      {doe}
+      
     </View>
-  </View>);
+  </View>
+  </ScrollView>
+  );
+  
 }
 
 const styles = StyleSheet.create({
@@ -41,10 +51,11 @@ const styles = StyleSheet.create({
     padding: 30
   },
   textContent:{
-    color: '#FF598C',
+    color: '#353535',
     fontWeight: 'bold',
-    fontSize: 18,
-    padding: 20,
+    fontSize: 16,
+    textAlign: 'justify',
+    lineHeight: 23
   }
   
 
