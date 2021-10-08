@@ -21,14 +21,14 @@ const MitoVerdade = ({navigation}) =>{
 // Mostra na tela o titulo da Verdade (a mesma coisa que foi digitada)
   
   const batata =  Object.entries(filtro).map(([key, value]) => {
-     return <Text style={styles.buttonText} key={key}>{value.Verdade}</Text>
+     return <Text style={styles.titleText} key={key}>{value.Verdade}</Text>
      //<Text key={key}>{value.Verdade}</Text>
    });
   
 // Mostra na tela a descrição da Verdade
 
    const banana =  Object.entries(filtro).map(([key, value]) => {
-     return <Text style={styles.buttonText} key={key}>{value.Descrição}</Text>
+     return <Text style={styles.descriptionText} key={key}>{value.Descrição}</Text>
    });
 
     // No console, além do erro ao tentar mostrar, tambem aparece um erro que 
@@ -44,13 +44,13 @@ const MitoVerdade = ({navigation}) =>{
 // Mostra na tela o titulo do mito (a mesma coisa que foi digitada)
   
   const mito_m =  Object.entries(filtro_m).map(([key, value]) => {
-     return <Text style={styles.buttonText} key={key}>{value.Mito}</Text>
+     return <Text style={styles.descriptionText} key={key}>{value.Mito}</Text>
    });
   
 // Mostra na tela a descrição do mito 
 
    const mito_d =  Object.entries(filtro_m).map(([key, value]) => {
-     return <Text style={styles.buttonText} key={key}>{value.Descrição}</Text>
+     return <Text style={styles.descriptionText} key={key}>{value.Descrição}</Text>
    });
 
 // Assim que o texto for digitado, se ele for exatemente igual a qualquer titulo
@@ -208,6 +208,22 @@ const styles = StyleSheet.create({
     color: '#3ec3a4',
     elevation: 1,
     marginTop: 30
+  },
+  descriptionText:{
+    color:'#353535',
+    fontSize: 16,
+    textAlign: 'justify',
+    lineHeight: 23,
+    fontWeight:'bold',
+    marginVertical: 20
+  },
+  titleText:{
+    color: '#FF598C',
+    fontSize: 20,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    marginTop: 20
+    
   },
 })
 

@@ -207,7 +207,7 @@ const handleConfirm = (date) => {
         onChangeText={setNome}
         value={nome}
         placeholder="Mingi"
-        keyboardType="default"
+       
       />
 
 
@@ -217,7 +217,7 @@ const handleConfirm = (date) => {
         onChangeText={setSobrenome}
         value={sobrenome}
         placeholder="Song"
-        keyboardType="default"
+        
       />
         <Text style={styles.label}>CPF:</Text>
         <View style={styles.teste1}>
@@ -260,7 +260,7 @@ const handleConfirm = (date) => {
         onChangeText={setEmail}
         value={email}
         placeholder="choimingi@gmail.com.br"
-        keyboardType="email-address"
+        
       /> 
        <Text style={styles.label}>Data de nascimento:</Text>   
     <View style={styles.teste2}>
@@ -332,7 +332,7 @@ const handleConfirm = (date) => {
         onChangeText={setLogradouro}
         value={logradouro}
         placeholder=""
-        keyboardType="default"
+       
       />
 
       <Text style={styles.label}>Numero:</Text>

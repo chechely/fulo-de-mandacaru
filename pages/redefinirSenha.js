@@ -46,7 +46,6 @@ const RedefinirSenha = () => {
           onChangeText={onChangeEmail}
           value={email}
           placeholder="Email"
-          keyboardType="email-adress"
 
         />
       

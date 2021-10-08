@@ -1,12 +1,30 @@
-[{"index":0,
-    "Doenças":"Hipotireoidismo","Descrição":"O hipotireoidismo é, em suma, uma deficiência na produção de hormônios da tireoide. A ausência ou diminuição desses hormônios têm influência em vários aspectos do funcionamento do corpo humano. Bem como, no ciclo menstrual. Essa doença pode ter como um de seus sintomas o ciclo menstrual irregular. Por exemplo, um fluxo muito intenso e/ou com muitas cólicas. Em caso de primeiro ciclo, pode acontecer uma antecipação da menstruação. Também é comum que haja uma antecipação do ciclo. Podendo uma mulher que tenha um ciclo de 28 dias, passar a ter um ciclo de 24."},
+[
+{
+    "index":0,
+    "Doenças":"Hipotireoidismo",
+    "Descrição":"O hipotireoidismo é, em suma, uma deficiência na produção de hormônios da tireoide. A ausência ou diminuição desses hormônios têm influência em vários aspectos do funcionamento do corpo humano. Bem como, no ciclo menstrual. Essa doença pode ter como um de seus sintomas o ciclo menstrual irregular. Por exemplo, um fluxo muito intenso e/ou com muitas cólicas. Em caso de primeiro ciclo, pode acontecer uma antecipação da menstruação. Também é comum que haja uma antecipação do ciclo. Podendo uma mulher que tenha um ciclo de 28 dias, passar a ter um ciclo de 24."},
 
-{"index":1,"Doenças":"Hipertireoidismo","Descrição":"O hipertireoidismo, ao contrário do hipotireoidismo, é o excesso da produção de hormônios da tireoide. Sua presença em maior número também reflete em diversos aspectos do organismo. O efeito na menstruação pode ser desde fluxo baixo, até a ausência de fluxo menstrual. Nessa doença, a primeira menstruação de uma menina pode acontecer mais tardiamente. E os ciclos menstruais podem ser irregulares, se tornando mais espaçados e até mesmo ausentes."},
+{
+    "index":1,
+    "Doenças":"Hipertireoidismo",
+    "Descrição":"O hipertireoidismo, ao contrário do hipotireoidismo, é o excesso da produção de hormônios da tireoide. Sua presença em maior número também reflete em diversos aspectos do organismo. O efeito na menstruação pode ser desde fluxo baixo, até a ausência de fluxo menstrual. Nessa doença, a primeira menstruação de uma menina pode acontecer mais tardiamente. E os ciclos menstruais podem ser irregulares, se tornando mais espaçados e até mesmo ausentes."},
 
-{"index":2,"Doenças":"Síndrome dos Ovários Policísticos (SOP)","Descrição":"A síndrome dos ovários policísticos (SOP) é um distúrbio hormonal que causa aumento dos ovários com o surgimento de pequenos cistos ao redor deles. Por vezes, essa doença é descoberta após a mulher apresentar alguns dos sintomas mais comuns, que incluem, dentre outros, a irregularidade no ciclo menstrual. Na SOP, o mais comum é que as mulheres apresentem ciclos menstruais mais longos (duração maior que 35 dias). Mas, também pode apresentar amenorreia (menstruação ausente por mais de 6 meses), o que a torna imprevisível."},
+{
+    "index":2,
+    "Doenças":"Síndrome dos Ovários Policísticos (SOP)",
+    "Descrição":"A síndrome dos ovários policísticos (SOP) é um distúrbio hormonal que causa aumento dos ovários com o surgimento de pequenos cistos ao redor deles. Por vezes, essa doença é descoberta após a mulher apresentar alguns dos sintomas mais comuns, que incluem, dentre outros, a irregularidade no ciclo menstrual. Na SOP, o mais comum é que as mulheres apresentem ciclos menstruais mais longos (duração maior que 35 dias). Mas, também pode apresentar amenorreia (menstruação ausente por mais de 6 meses), o que a torna imprevisível."},
 
-{"index":3,"Doenças":"Tumor na hipófise","Descrição":"Tumor na hipófise,também conhecido como adenoma, esse é um tumor considerado raro e, em sua maioria, benigno. O tumor na hipófise possui como um de seus sintomas o excesso ou falta de alguns hormônios, o que pode acarretar em irregularidades no ciclo menstrual além de outros problemas no sistema reprodutivo que podem levar à infertilidade."},
+{
+    "index":3,
+    "Doenças":"Tumor na hipófise",
+    "Descrição":"Tumor na hipófise,também conhecido como adenoma, esse é um tumor considerado raro e, em sua maioria, benigno. O tumor na hipófise possui como um de seus sintomas o excesso ou falta de alguns hormônios, o que pode acarretar em irregularidades no ciclo menstrual além de outros problemas no sistema reprodutivo que podem levar à infertilidade."},
 
-{"index":4,"Doenças":"Endometriose","Descrição":"A endometriose é uma doença caracterizada pela presença do endométrio – tecido que reveste o útero – fora do útero. É possível que ele esteja presente nas trompas, ovários, bexiga e no intestino. Seu principal sintoma é a irregularidade menstrual. É comum que haja dores antes da menstruação, cólicas menstruais intensas. Também é possível que os fluxos sejam mais intensos ou irregulares. Outros sintomas envolvem a alteração intestinal durante a menstruação."},
+{
+    "index":4,
+    "Doenças":"Endometriose",
+    "Descrição":"A endometriose é uma doença caracterizada pela presença do endométrio – tecido que reveste o útero – fora do útero. É possível que ele esteja presente nas trompas, ovários, bexiga e no intestino. Seu principal sintoma é a irregularidade menstrual. É comum que haja dores antes da menstruação, cólicas menstruais intensas. Também é possível que os fluxos sejam mais intensos ou irregulares. Outros sintomas envolvem a alteração intestinal durante a menstruação."},
 
-{"index":5,"Doenças":"Miomas","Descrição":"Os miomas, ou fibromas, são tumores benignos do útero que causam distúrbio hormonal. Esse distúrbio forma no útero alguns nódulos firmes e com coloração esbranquiçada. Um dos sintomas do mioma pode, à princípio, se confundir com a menstruação: o sangramento uterino anormal."}]
+{
+    "index":5,
+    "Doenças":"Miomas",
+    "Descrição":"Os miomas, ou fibromas, são tumores benignos do útero que causam distúrbio hormonal. Esse distúrbio forma no útero alguns nódulos firmes e com coloração esbranquiçada. Um dos sintomas do mioma pode, à princípio, se confundir com a menstruação: o sangramento uterino anormal."}]
