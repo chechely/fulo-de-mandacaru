@@ -1,0 +1,89 @@
+[{"index":0,
+    "EMOCIONAIS":"Depress\u00e3o",
+    "F\u00cdSICOS":"Agita\u00e7\u00e3o"},
+
+{"index":1,
+    "EMOCIONAIS":"Tristeza e vontade de chorar",
+    "F\u00cdSICOS":"Ansiedade"},
+
+{"index":2,
+    "EMOCIONAIS":"Irritabilidade",
+    "F\u00cdSICOS":"Confus\u00e3o"},
+
+{"index":3,
+    "EMOCIONAIS":"Ansiedade",
+    "F\u00cdSICOS":"Crises de choro"},
+
+{"index":4,
+    "EMOCIONAIS":"Ins\u00f4nia",
+    "F\u00cdSICOS":"Depress\u00e3o"},
+
+{"index":5,
+    "EMOCIONAIS":"Fome em excesso ou falta de apetite",
+    "F\u00cdSICOS":"Dificuldade de concentra\u00e7\u00e3o"},
+
+{"index":6,
+    "EMOCIONAIS":"Sonol\u00eancia",
+    "F\u00cdSICOS":"Hipersensibilidade emocional"},
+
+{"index":7,
+    "EMOCIONAIS":"Dificuldade de concentra\u00e7\u00e3o",
+    "F\u00cdSICOS":"Esquecimento ou perda de mem\u00f3ria"},
+
+{"index":8,
+    "EMOCIONAIS":"Cansa\u00e7o",
+    "F\u00cdSICOS":"Irritabilidade"},
+
+{"index":9,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"Oscila\u00e7\u00f5es do humor ou piora de transtornos do humor que j\u00e1 est\u00e3o presentes"},
+
+{"index":10,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"Nervosismo"},
+
+{"index":11,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"Irritabilidade"},
+
+{"index":12,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"Reclus\u00e3o social"},
+
+{"index":13,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"Cefaleias"},
+
+{"index":14,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"Ondas de calor"},
+
+
+{"index":15,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"Ins\u00f4nia, incluindo dificuldade de adormecer ou de permanecer adormecida durante a noite"},
+
+{"index":16,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"Dores nas articula\u00e7\u00f5es e musculares"},
+
+{"index":17,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"Falta de energia"},
+
+{"index":18,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"N\u00e1usea e v\u00f4mito"},
+
+{"index":19,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"Formigamento nas m\u00e3os e nos p\u00e9s"},
+
+
+{"index":20,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"Problemas de pele, tais como acne e dermatite por coceira localizada"},
+
+{"index":21,
+    "EMOCIONAIS":null,
+    "F\u00cdSICOS":"Incha\u00e7o das m\u00e3os e dos p\u00e9s"}]

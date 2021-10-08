@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "fulo-de-mandacaru",
+    "slug": "snack-14a0e1a9-df0b-405f-bbdc-c85e86663b27",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ss.png",
+    "splash": {
+      "image": "./assets/ss.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#5A4BB7"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/ss.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/ss.png"
+    }
+  }
+}
