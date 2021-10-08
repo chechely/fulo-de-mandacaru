@@ -1,11 +1,21 @@
-# Sample Snack app
+# Fulô de Mandacaru 
+### 🌺🌵 O que é o app ?
+O aplicativo “fulô de mandacaru” é um novo desenvolvimento na área de cuidados e saúde da mulher.O app auxiliará o usuário em como se desenvolver e lidar com a menstruação de uma forma normal e natural que pode fazer o mesmo se sentir o melhor possível com seu próprio corpo.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+![Logo](https://github.com/JaianeOliveira/fulo-de-mandacaru/blob/main/assets/ss.png)
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+### 🌺🌵 Protótipo
+![Figma](https://github.com/JaianeOliveira/fulo-de-mandacaru/blob/main/assets/download.png)
+Clique [aqui](https://www.figma.com/file/enaD19vZ0IpsDGs33XBBds/Calendario?node-id=319%3A2) para ver o protótipo diretamente no Figma.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+### 🌺🌵 Canva
+Clique [aqui](https://www.canva.com/design/DAErtqGSN64/JCnPvtctd_EwxQG9BD22fQ/view?utm_content=DAErtqGSN64&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton) a apresentação do Canva.
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+### 🌺🌵 Grupo 
+
+- Jaiane Oliveira
+- Joyce Vitória
+- Joelma Oliveira
+- Michelle Santos
+- Rayane Layza
